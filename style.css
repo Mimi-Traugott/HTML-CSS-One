@@ -1,0 +1,63 @@
+* {
+    background-color: lightseagreen;
+}
+
+h1 {
+    font-size: 25px;
+    color: tomato;
+    font-family: Arial; 
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.heading-class {
+    color: blue;
+}
+
+#heading-id {
+    color: yellow;
+}
+
+/* any h6 inside a div tag will get this styling */
+
+div h6 {
+    color: green;
+
+}
+/*div>h6 this will select all of them within the div */
+
+
+section + h6 {
+    color: orange;
+}
+
+section ~ h6 {}
+
+div {
+    height: 50px;
+    width: 50px;
+    border: 5px solid black;
+}
+
+#box-sizing-demo {
+    height: 50vh;
+    width: 50vh;
+    border: 5px solid black;
+    box-sizing: border-box;
+    background-image: url("https://i.redd.it/sgslfwtdwxr21.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#percent-demo {
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#float-demo {
+    float: right;
+}
